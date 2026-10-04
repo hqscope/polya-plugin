@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "polya",
+  "version": "1.0.0",
+  "description": "Brings your Polya courses into ChatGPT: the study mode you chose for each course, and cited passages from your own course materials.",
+  "author": { "name": "Scope", "url": "https://askpolya.com" },
+  "homepage": "https://askpolya.com/connect",
+  "license": "MIT",
+  "keywords": ["study", "courses", "tutoring", "education"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Polya",
+        "category": "Education",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

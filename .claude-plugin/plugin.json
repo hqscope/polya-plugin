@@ -1,0 +1,9 @@
+{
+  "name": "polya",
+  "displayName": "Polya",
+  "version": "1.0.0",
+  "description": "Brings your Polya courses into Claude: the study mode you chose for each course, and cited passages from your own course materials.",
+  "author": { "name": "Scope", "url": "https://askpolya.com" },
+  "homepage": "https://askpolya.com/connect",
+  "license": "MIT"
+}
