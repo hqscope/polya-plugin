@@ -1,9 +1,17 @@
 {
   "name": "polya",
   "displayName": "Polya",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brings your Polya courses into Claude: the study mode you chose for each course, and cited passages from your own course materials.",
-  "author": { "name": "Scope", "url": "https://askpolya.com" },
+  "author": {
+    "name": "Scope",
+    "url": "https://askpolya.com"
+  },
   "homepage": "https://askpolya.com/connect",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/hqscope/polya-plugin",
+  "documentationUrl": "https://askpolya.com/connect",
+  "privacyPolicyUrl": "https://askpolya.com/privacy",
+  "termsOfServiceUrl": "https://askpolya.com/terms",
+  "supportUrl": "mailto:hello@askpolya.com"
 }
