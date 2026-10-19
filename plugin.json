@@ -1,20 +1,48 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "polya",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brings your Polya courses into ChatGPT: the study mode you chose for each course, and cited passages from your own course materials.",
-  "author": { "name": "Scope", "url": "https://askpolya.com" },
-  "homepage": "https://askpolya.com/connect",
+  "author": {
+    "name": "Noel Sason",
+    "email": "hello@askpolya.com",
+    "url": "https://askpolya.com"
+  },
+  "homepage": "https://askpolya.com",
   "license": "MIT",
-  "keywords": ["study", "courses", "tutoring", "education"],
+  "keywords": [
+    "study",
+    "courses",
+    "tutoring",
+    "education"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Polya",
-        "category": "Education",
+        "shortDescription": "Study inside your course rules",
+        "longDescription": "Polya brings the courses you've added to Polya into your conversations. For each course you choose a study mode: Open, Guided, Practice or Review. When you ask for help with coursework, ChatGPT checks that mode first and works within it. In Guided mode it offers hints and one step at a time. In Practice mode it quizzes you before revealing anything.\n\nExplanations come from your own course materials (readings, slides, pages and lecture transcripts), with each passage cited to the page or lecture moment it came from. Polya can only read: it never changes your courses or your school's systems.\n\nYou need a Polya account at askpolya.com with at least one course added.",
+        "developerName": "Noel Sason",
+        "category": "Education & Research",
+        "capabilities": [
+          "List your Polya courses",
+          "Read a course's study mode",
+          "Search course materials with citations"
+        ],
+        "websiteURL": "https://askpolya.com",
+        "supportURL": "https://askpolya.com/contact",
+        "privacyPolicyURL": "https://askpolya.com/privacy",
+        "termsOfServiceURL": "https://askpolya.com/terms",
+        "defaultPrompt": [
+          "What study mode is my Bio 1A course in?",
+          "Explain the electron transport chain using my lecture notes.",
+          "Quiz me on this week's cellular respiration material."
+        ],
+        "brandColor": "#191F1D",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/logo.png"
       }
     }
-  }
+  },
+  "repository": "https://github.com/hqscope/polya-plugin"
 }

@@ -4,7 +4,8 @@
   "version": "1.0.1",
   "description": "Brings your Polya courses into Claude: the study mode you chose for each course, and cited passages from your own course materials.",
   "author": {
-    "name": "Scope",
+    "name": "Noel Sason",
+    "email": "hello@askpolya.com",
     "url": "https://askpolya.com"
   },
   "homepage": "https://askpolya.com/connect",
@@ -13,5 +14,5 @@
   "documentationUrl": "https://askpolya.com/connect",
   "privacyPolicyUrl": "https://askpolya.com/privacy",
   "termsOfServiceUrl": "https://askpolya.com/terms",
-  "supportUrl": "mailto:hello@askpolya.com"
+  "supportUrl": "https://askpolya.com/contact"
 }

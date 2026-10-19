@@ -25,3 +25,7 @@ All three tools only read. Nothing in Polya or your school's systems is changed.
 ## Privacy
 
 See [askpolya.com/privacy](https://askpolya.com/privacy). Support: hello@askpolya.com.
+
+## Publisher
+
+Polya and this plugin are built and operated by Noel Sason. See [askpolya.com/about](https://askpolya.com/about).
