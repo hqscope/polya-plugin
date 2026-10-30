@@ -165,6 +165,6 @@ Read the [privacy policy](https://askpolya.com/privacy) and [terms](https://askp
 
 ## Publisher
 
-Polya and this plugin are built and operated by Noel Sason. See [askpolya.com/about](https://askpolya.com/about).
+Polya and this plugin are built and operated by Noel Jubil Sason. See [askpolya.com/about](https://askpolya.com/about).
 
 License: [MIT](LICENSE).

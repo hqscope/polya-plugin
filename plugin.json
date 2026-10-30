@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Brings your Polya courses into ChatGPT: the study mode you chose for each course, and cited passages from your own course materials.",
   "author": {
-    "name": "Noel Sason",
+    "name": "Noel Jubil Sason",
     "email": "hello@askpolya.com",
     "url": "https://askpolya.com"
   },
@@ -22,7 +22,7 @@
         "displayName": "Polya",
         "shortDescription": "Study inside your course rules",
         "longDescription": "Polya brings the courses you've added to Polya into your conversations. For each course you choose a study mode: Open, Guided, Practice or Review. When you ask for help with coursework, ChatGPT checks that mode first and works within it. In Guided mode it offers hints and one step at a time. In Practice mode it quizzes you before revealing anything.\n\nExplanations come from your own course materials (readings, slides, pages and lecture transcripts), with each passage cited to the page or lecture moment it came from. Polya can only read: it never changes your courses or your school's systems.\n\nYou need a Polya account at askpolya.com with at least one course added.",
-        "developerName": "Noel Sason",
+        "developerName": "Noel Jubil Sason",
         "category": "Education & Research",
         "capabilities": [
           "List your Polya courses",
